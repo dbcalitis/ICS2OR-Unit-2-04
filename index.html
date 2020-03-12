@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="description" content="Javascript">
+  <meta name="keywords" content="Javascript, HTML, Crossover">
+  <meta name="author" content="Daria Bernice Calitis">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <title>Javascript 5</title>
+  </head>
+  <body>
+    <h1>Javascript 5</h1>
+    <p>Type anything you want!</p>
+    <input type="text" id="myText"/>
+    <button id="alert">Send Alert</button>
+    <script>
+      document.getElementById("alert").addEventListener("click", textAlert);
+      function textAlert() {
+        if (document.getElementById("myText").value == "") {}
+        else {
+          alert(document.getElementById("myText").value)
+        }
+        
+      }
+    </script>
+  </body>
+</html>
