@@ -12,16 +12,15 @@
   <body>
     <h1>Javascript 5</h1>
     <p>Type anything you want!</p>
-    <input type="text" id="myText"/>
+    <input type="text" id="mytext">
     <button id="alert">Send Alert</button>
     <script>
       document.getElementById("alert").addEventListener("click", textAlert);
       function textAlert() {
-        if (document.getElementById("myText").value == "") {}
+        if (document.getElementById("mytext").value == "") {}
         else {
-          alert(document.getElementById("myText").value)
+          alert(document.getElementById("mytext").value)
         }
-        
       }
     </script>
   </body>
